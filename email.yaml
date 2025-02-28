@@ -3,8 +3,8 @@
 - name: send email
   mail:
     subject: "Metadata of AWS services"
-    from: "vkpadaga@gmail.com
-    to: 
+    from: "vkpadaga@gmail.com"
+    to: "satish.s2@lseg.com"
     body: |
       Hi Team,
       Please find the metadata attached
