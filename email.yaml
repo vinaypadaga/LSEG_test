@@ -1,0 +1,12 @@
+- name: create the attachment file
+  shell: echo "{{METADATA.content}}" >> /tmp/metadata.file
+- name: send email
+  mail:
+    subject: "Metadata of AWS services"
+    from: "vkpadaga@gmail.com
+    to: 
+    body: |
+      Hi Team,
+      Please find the metadata attached
+    attach:
+    
